@@ -1,0 +1,165 @@
+:root {
+    --IRIS: #4d5ae5;
+    --NAVY-BLUE: #2e2f42;
+    --CLOUD: #F4F4FD;
+    --SLATE: #434455;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.1;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    text-transform: capitalize;
+}
+
+h3 {
+    color: var(--NAVY-BLUE);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.container {
+    width: 1158px;
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 156px;
+}
+
+.d-flex {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.header {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner {
+    background-color: var(--NAVY-BLUE);
+    padding-top: 188px;
+    padding-bottom: 188px;
+    text-align: center;
+}
+
+.banner button {
+    background-color: var(--IRIS);
+    color: white;
+    padding: 16px 32px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--NAVY-BLUE);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    margin: 0 156px 0 156px;
+}
+
+.products {
+    padding-top: 0;
+}
+
+.team {
+    background-color: var(--CLOUD);
+    margin: auto;
+    text-align: center;
+}
+
+.link:hover {
+    color: var(--IRIS);
+}
+
+button {
+    cursor: pointer;
+    border-radius: 7px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.button {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 24px;
+}
+
+button:hover {
+    background-color: var(--IRIS);
+    color: white;
+}
+
+body {
+    color: var(--SLATE);
+    font-family: "Roboto", sans-serif;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid var(--CORNFLOWER, #E7E9FC);
+    padding-left: 0 16px;
+}
+
+.list {
+    gap: 40px;
+    padding-left: 76px;
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio {
+    gap: 40px;
+    display: flex;
+    margin: 100px 0 100px 0;
+    align-items: center;
+}
+
+.logo {
+    text-decoration: none;
+    color: var(--NAVY-BLUE);
+    font-family: 'Raleway', sans-serif;
+}
+
+.logo span {
+    color: var(--IRIS);
+}
+
+footer {
+    color: var(--CLOUD);
+    background-color: var(--NAVY-BLUE);
+    width: auto;
+    height: 312px;
+    padding-left: 156px;
+    padding-top: 101.5px;
+}
+
+footer .logo  {
+    color: var(--CLOUD);
+}
